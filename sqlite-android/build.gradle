@@ -6,7 +6,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
 apply plugin: 'de.undercouch.download'
 
-group = 'io.requery'
+group = 'io.rajeshrasch'
 version = '3.36.0'
 description = 'Android SQLite compatibility library'
 
