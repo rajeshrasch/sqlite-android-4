@@ -7,7 +7,7 @@ apply plugin: 'maven-publish'
 apply plugin: 'de.undercouch.download'
 
 group = 'io.rajeshrasch'
-version = '3.36.0'
+version = '30-beta'
 description = 'Android SQLite compatibility library'
 
 android {
@@ -65,9 +65,9 @@ ext {
         description project.description
         url 'https://github.com/rajeshrasch/sqlite-android'
         scm {
-            url 'https://github.com/rajeshrasch/sqlite-android.git'
-            connection 'scm:git:git://github.com/rajeshrasch/sqlite-android.git'
-            developerConnection 'scm:git:git@github.com/rajeshrasch/sqlite-android.git'
+            url 'https://github.com/rajeshrasch/sqlite-android-4.git'
+            connection 'scm:git:git://github.com/rajeshrasch/sqlite-android-4.git'
+            developerConnection 'scm:git:git@github.com/rajeshrasch/sqlite-android-4.git'
         }
         licenses {
             license {
